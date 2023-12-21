@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="kenko_first:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/kenko_first_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="kenko_first" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-io" />
+          <element id="library" level="project" name="gson-2.8.2" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.40" />
+          <element id="library" level="project" name="geoip2-2.15.0-rc1" />
+          <element id="library" level="project" name="commons-fileupload-1.4" />
+          <element id="library" level="project" name="maxmind-db-2.0.0-rc2" />
+          <element id="library" level="project" name="jackson-annotations-2.11.2" />
+          <element id="library" level="project" name="log4j-1.2.15" />
+        </element>
+      </element>
+      <element id="library" level="project" name="maven-war-plugin-3.3.1" />
+      <element id="library" level="project" name="commons-fileupload-1.4-javadoc" />
+      <element id="library" level="project" name="commons-fileupload-1.4-sources" />
+      <element id="javaee-facet-resources" facet="kenko_first/web/Web" />
+    </root>
+  </artifact>
+</component>

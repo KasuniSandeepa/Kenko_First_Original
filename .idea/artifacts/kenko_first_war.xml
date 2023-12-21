@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="kenko_first:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/kenko_first_war</output-path>
+    <root id="archive" name="kenko_first_war.war">
+      <element id="artifact" artifact-name="kenko_first:war exploded" />
+    </root>
+  </artifact>
+</component>

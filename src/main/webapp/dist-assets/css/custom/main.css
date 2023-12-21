@@ -1,0 +1,76 @@
+/*ul.navigation-left li.nav-item:hover{*/
+/*ul.navigation-left li.nav-item div.triangle{*/
+/*color: #6b911b;*/
+/*}*/
+/*}*/
+/*.mainlist li:hover {*/
+/*background:#1eae9a;*/
+/*color:white;*/
+/*}*/
+.button_in_list {
+    width: 210px !important;
+    font-weight: bold;
+}
+.opaque {
+    background-color: rgba(245, 245, 245, 0.5);
+}
+/*radio image styling*/
+/* HIDE RADIO */
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+input[type=radio]:hover + label > div {
+    cursor: pointer;
+    background-color: #e3ece1;
+}
+input[type=radio]:checked + label > div {
+    background-color: #c7d9c3;
+}
+.radio-image {
+    max-width: 50px;
+    height: auto;
+    padding: 5px;
+}
+/*slick carousel styling*/
+#slick .arrow_prev {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#slick .arrow_prev span {
+    /*font-size: 15px;*/
+    cursor: pointer;
+    border-radius: 25px;
+    /*background-color: #6b911b;*/
+    background-color: rgba(107, 145, 27, 0.8);
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 55px;
+    padding-right: 5px;
+}
+
+#slick .arrow_next {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+
+#slick .arrow_next span {
+    /*font-size: 15px;*/
+    cursor: pointer;
+    border-radius: 25px;
+    /*background-color: #6b911b;*/
+    background-color: rgba(107, 145, 27, 0.8);
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 55px;
+    padding-left: 4px;
+}
